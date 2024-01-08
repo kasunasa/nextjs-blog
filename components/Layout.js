@@ -17,15 +17,15 @@ function Layout({ children,home }) {
         {home ? (
           <>
             <img
-              src='/images/profile(1).png'
-              className={`${utilsStyles.borderCircle}${styles.headerHomeImage}`}
+              src='/images/profile.png'
+              className={`${utilsStyles.borderCircle} ${styles.headerHomeImage}`}
             ></img>
             <h1>{name}</h1>
           </>
         ) : (
           <>
             <img
-              src='/images/profile(1).png'
+              src='/images/profile.png'
               className={`${utilsStyles.borderCircle}`}
             ></img>
             <h1>{name}</h1>
